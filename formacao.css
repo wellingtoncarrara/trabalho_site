@@ -1,0 +1,125 @@
+/*
+****** limpar formataçoes ******
+*/
+*{
+    margin:0 ;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*
+****** formataçoes genericas ******
+*/
+body{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #C4C4C4;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+logo a{
+    font-size: 30px;
+    font-weight: bold;
+    color:  #252525;
+}
+.ul{
+    display: flex;
+    align-items: center;
+}
+
+
+.ul li{
+    margin: 0 35px;
+    font-size: 18px;
+}
+
+.ul li a{
+    color: var  #252525;
+}
+
+
+
+
+
+h1{
+    color: #252525;
+    font-size: 40px;
+}
+
+h2{
+    color:  #004d9b;
+}
+
+strong{
+    color: #0d0152
+}
+
+h4{
+    color: #0d0152
+}
+
+/*
+****** cabeçalho ******
+*/
+header{
+    background-color:  #0066CC;
+    padding: 15px;
+    text-align: center;
+
+}
+
+
+
+header a:link, header a:visited{
+    color: #faf7f9;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+header a:hover{
+    color: #0066CC;
+    background: #FFFFFF;
+    text-decoration: none;
+}
+
+.white{
+    color:#FFFFFF ;
+}
+
+
+/*
+*****section*****
+*/
+
+
+ section{
+    
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align:center;
+    background: #FFFFFF;
+    
+}
+
+img src {
+    width: 620px;
+}
+
+/*
+******rodapé******
+*/
+
+footer {
+    clear: both;
+    text-align: center;
+    padding: 15px;
+    background: #FFFFFF;
+    color:  #004d9b;
+}
